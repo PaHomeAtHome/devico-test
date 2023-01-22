@@ -1,3 +1,5 @@
+"use strict";
+
 const foo = (obj) => {
   for (const [key, value] of Object.entries(obj)) {
     typeof value === "object" ? foo(value) : (obj[key] = 1 - value);

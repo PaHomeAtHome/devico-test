@@ -1,3 +1,5 @@
+"use strict";
+
 const bar = (length) => {
   const createArray = (length) => new Array(length).fill(0);
   const addNumbers = (array, index) => {
