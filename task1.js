@@ -23,6 +23,7 @@ function calc(newNumber, operator) {
   }
 }
 calc.prevValue = 0;
+
 calc(5, "+"); // 5
 calc(2, "*"); // 10
 calc(3, "-"); // 7
