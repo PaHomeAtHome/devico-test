@@ -35,6 +35,7 @@ class Worker {
 }
 
 const worker = new Worker("Ivan", "Ivanov", 10, 31);
+
 console.log(worker.getRate()); //outputs 10
 console.log(worker.getDays()); //outputs 31
 console.log(worker.getSalary()); //outputs 310 - what equal 10*31
